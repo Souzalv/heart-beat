@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+
+.coracao1{
+    font-size: 400px;
+    transition: 1.0s all;
+}
+
+.coracao2{
+    font-size: 400px;
+    animation: animacaoLegal 0.5s infinite;
+    color: purple;
+    
+}
+
+.coracao3{
+    font-size: 400px;
+    animation: heart3 2s;
+    color: blue;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+.coracao1:hover{
+    scale: 1.4;
+    color: red;
+    
+}
+
+@keyframes animacaoLegal {
+    to {scale: 1.4;}
+    
+    
+}
+
+@keyframes heart3 {
+    to {scale: 1.4;}
+}
+
+
+
+
+
+
+
